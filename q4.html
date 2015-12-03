@@ -1,0 +1,37 @@
+<html>
+<body>
+<table>
+<form method = "post" action="send.php">
+<tr><td><b>What kind of car would you like to buy?</b></td></tr>
+<tr><td>
+  <input type="radio" name="car" value= "Proton" > Proton &nbsp;
+  <input type="radio" name="car" value= "Honda" > Honda &nbsp;
+  <input type="radio" name="car" value= "Ferrari" > Ferrari &nbsp;
+  <input type="radio" name="car" value= "Ford" > Ford 
+</td></tr>
+<tr><td><b>What colour do you want on your car?</b></td></tr>
+<tr><td><select name="colour">
+  <option value="white">White</option>
+  <option value="red">Red</option>
+  <option value="black" selected>Black</option>
+  <option value="blue">Blue</option>
+  </select>&nbsp;
+  Other: <input type="text" name="other">
+</td></tr>
+<tr><td><b>Enter other specification of your preferred car:</td></tr>
+<tr><td>
+  <textarea name:"specification" row="5" column="50"></textarea>
+</td></tr>
+<tr><td><b>Tell us how to get in touch with you:</b></td></tr>
+<tr><td>Name</td><td><input type="text" name="name"></td></tr>
+<tr><td>E-mail</td><td><input type="email" name="email"></td></tr>
+<tr><td>Tel</td><td><input type="tel" name="tel"></td></tr>
+<tr><td>Fax</td><td><input type="fax" name="fax"></td</tr>
+<tr><td><input type="checkbox" name="contactme" value="contactme">Please contact me as soon as possible regarding this matter.</td></tr>
+<tr><td>
+  <input type="Submit" value="Send"> &nbsp;
+  <iput type='Reset" value="clear"></td></tr>
+</form>
+</table>
+</body>
+</html>
